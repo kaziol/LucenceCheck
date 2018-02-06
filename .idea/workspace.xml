@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cc433bf-6ffb-4430-978e-ded952c46e8d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HelloLucene.java" afterPath="$PROJECT_DIR$/src/main/java/HelloLucene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/HelloLuceneTest.java" afterPath="$PROJECT_DIR$/src/test/java/HelloLuceneTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,11 +30,9 @@
       <file leaf-file-name="HelloLuceneTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/HelloLuceneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,8 +40,8 @@
       <file leaf-file-name="HelloLucene.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HelloLucene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="-853">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -265,14 +263,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517949694546</updated>
-      <workItem from="1517949698959" duration="8468000" />
+      <workItem from="1517949698959" duration="8531000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloLuceneTest - 2018.02.06 at 23h 44m 42s.xml">
-      <configuration name="HelloLuceneTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HelloLuceneTest - 2018.02.06 at 23h 45m 59s.xml">
       <configuration name="HelloLuceneTest" configurationId="JUnit" />
     </history-entry>
@@ -300,9 +295,12 @@
     <history-entry file="HelloLuceneTest - 2018.02.07 at 00h 03m 21s.xml">
       <configuration name="HelloLuceneTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HelloLuceneTest - 2018.02.07 at 00h 04m 02s.xml">
+      <configuration name="HelloLuceneTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8468000" />
+    <option name="totallyTimeSpent" value="8531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -348,7 +346,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/HelloLuceneTest.java</url>
-          <line>19</line>
+          <line>16</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -372,11 +370,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HelloLuceneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -392,8 +388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HelloLucene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="-853">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

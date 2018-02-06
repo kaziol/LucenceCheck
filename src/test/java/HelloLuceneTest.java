@@ -1,15 +1,12 @@
 import org.apache.lucene.queryparser.classic.ParseException;
-import org.junit.Before;
 import org.junit.BeforeClass;
-import org.junit.FixMethodOrder;
-import org.junit.Test;
-import org.junit.runners.MethodSorters;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Set;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class HelloLuceneTest {
     HelloLucene helloLucene;
