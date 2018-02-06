@@ -27,7 +27,7 @@ public class HelloLucene {
     IndexWriter writer;
     String inputFileDirectory;
     String indexDirectory;
-    
+
     public HelloLucene(String inputFileDirectory, String indexDirectory) throws IOException {
         this.inputFileDirectory=inputFileDirectory;
         this.indexDirectory=indexDirectory;
@@ -68,7 +68,6 @@ public class HelloLucene {
 
         QueryParser queryParser = new QueryParser("content",analyzer);
         Query query = queryParser.parse(searchString);
-        int count=indexSearcher.count(query);
         TopDocs docs = indexSearcher.search(query, 10);
         ScoreDoc[] scoreDocs = docs.scoreDocs;
         int i=0;

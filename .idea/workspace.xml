@@ -42,8 +42,8 @@
       <file leaf-file-name="HelloLucene.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HelloLucene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-751">
-              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            <state relative-caret-position="99">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -265,14 +265,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517949694546</updated>
-      <workItem from="1517949698959" duration="8428000" />
+      <workItem from="1517949698959" duration="8468000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloLuceneTest - 2018.02.06 at 23h 43m 00s.xml">
-      <configuration name="HelloLuceneTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HelloLuceneTest - 2018.02.06 at 23h 44m 42s.xml">
       <configuration name="HelloLuceneTest" configurationId="JUnit" />
     </history-entry>
@@ -300,9 +297,12 @@
     <history-entry file="HelloLuceneTest - 2018.02.07 at 00h 01m 12s.xml">
       <configuration name="HelloLuceneTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HelloLuceneTest - 2018.02.07 at 00h 03m 21s.xml">
+      <configuration name="HelloLuceneTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8428000" />
+    <option name="totallyTimeSpent" value="8468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -392,8 +392,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HelloLucene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-751">
-          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        <state relative-caret-position="99">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
