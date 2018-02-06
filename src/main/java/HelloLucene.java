@@ -27,9 +27,7 @@ public class HelloLucene {
     IndexWriter writer;
     String inputFileDirectory;
     String indexDirectory;
-
-    Document document= new Document();
-
+    
     public HelloLucene(String inputFileDirectory, String indexDirectory) throws IOException {
         this.inputFileDirectory=inputFileDirectory;
         this.indexDirectory=indexDirectory;
