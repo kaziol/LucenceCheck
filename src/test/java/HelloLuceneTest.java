@@ -39,7 +39,7 @@ public class HelloLuceneTest {
             }
         }
     }
-    
+
 
     @org.junit.jupiter.api.Test
     void searchIndex() throws IOException, ParseException {

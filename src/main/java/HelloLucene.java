@@ -21,27 +21,26 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class HelloLucene {
-    String inputFileDirectory = "D:\\Downloads";
-    String indexDirectory = "D:\\indexDir";
-
-    Directory index = FSDirectory.open(Paths.get(indexDirectory));
-    StandardAnalyzer analyzer = new StandardAnalyzer();
-    IndexWriterConfig config = new IndexWriterConfig(analyzer);
-    IndexWriter writer = new IndexWriter(index, config);
+    Directory index ;
+    StandardAnalyzer analyzer;
+    IndexWriterConfig config;
+    IndexWriter writer;
+    String inputFileDirectory;
+    String indexDirectory;
 
     Document document= new Document();
 
     public HelloLucene(String inputFileDirectory, String indexDirectory) throws IOException {
         this.inputFileDirectory=inputFileDirectory;
         this.indexDirectory=indexDirectory;
+        index = FSDirectory.open(Paths.get(indexDirectory));
+        analyzer = new StandardAnalyzer();
+        config = new IndexWriterConfig(analyzer);
+        writer = new IndexWriter(index, config);
         readFiles();
         writer.close();
     }
 
-    public HelloLucene() throws IOException {
-        readFiles();
-        writer.close();
-    }
 
     private void readFiles() throws IOException {
         File dir = new File(inputFileDirectory);
